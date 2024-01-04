@@ -19,10 +19,10 @@ var cities = []; // Array to store added cities
         return;
       }
 
-      // Your OpenWeatherMap API key
+    
       var apiKey = 'e7e72fbd8215cbf2f87f5f369c8dfa2e'; 
 
-      // OpenWeatherMap API URL with the city name, API key, and units=metric
+    
       var apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}&units=metric`;
 
       try {
