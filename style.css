@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #1f1f3a;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header>h1{
+    color: white;
+    font-size: 45px;
+    margin-top:10px;
+    font-family: "Inter-Regular";
+}
+.input-field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:25px;
+    gap:10px;
+}
+.search-box{
+    width: 596px;
+    height:66px;
+    padding: 7px 8px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    color: white;
+    background-color: #262a4b;
+    font-family: "Inter-Regular";
+}
+.button{
+    width:188px;
+    height: 66px;
+    background-color: #4A397FB2;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px; 
+    font-family: "Inter-Regular";
+}
+.weather-card {
+    font-family:"Inter-Regular";
+    background-color: #48309e;
+    color:#FFF;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 380px;
+    height: 240px;
+    margin:10px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 15px;
+    height:204px;
+    box-sizing: border-box;
+  }
+  .weather-card>p,h3,img{
+    background-color: #48309e;
+  }
+  .weather-card>img{
+    height:80px;
+  }
+
+  .weatherCar{
+    margin-left:200px;
+  }
+@font-face {
+    font-family: Inter-Regular;
+    src: url(./Inter-Regular.ttf);
+}
